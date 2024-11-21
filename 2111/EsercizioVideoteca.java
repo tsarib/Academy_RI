@@ -8,10 +8,11 @@ public class EsercizioVideoteca {
         Scanner stringScanner = new Scanner(System.in);
         Scanner scannerInt = new Scanner(System.in);
 
-        // ArrayList<Utente> registroUtenti = new ArrayList<Utente>();
-
         Utente tania = new Utente("123", "tania");
         Film film = new Film("Pirata dei Caraibi", 2003);
+        Videoteca videoteca = new Videoteca();
+
+        videoteca.aggiungiFilm(film);
         tania.noleggiaFilm(film);
         tania.elencoNoleggi();
 
@@ -55,6 +56,14 @@ public class EsercizioVideoteca {
             this.annoDiUscita = annoDiUscita;
         }
 
+        @Override
+        public String toString() {
+            return "Film{" +
+                    "titolo='" + titolo + '\'' +
+                    ", anno di uscita=" + annoDiUscita +
+                    '}';
+        }
+
     }
 
     // Classe Utente
@@ -73,11 +82,12 @@ public class EsercizioVideoteca {
         // Aggiunge film alla lista dei film
         public void noleggiaFilm(Film film) {
             filmUtente.add(film);
-            System.out.println("Hai aggiunto il film: " + film + " alla tua lista di film noleggiati");
+            System.out.println("Hai aggiunto il film: " + film.toString() + " alla tua lista di film noleggiati");
         }
 
         // Stampa l'elenco dei film di un utente
         public void elencoNoleggi() {
+            // controlla se l'ArrayList filmUtente è vuoto
             if (filmUtente.isEmpty()) {
                 System.out.println("Non hai nolleggiato nessun film!");
             } else {
@@ -93,7 +103,6 @@ public class EsercizioVideoteca {
 
     // Classe Videoteca
     public static class Videoteca {
-
         ArrayList<Film> videoteca;
 
         public Videoteca() {
@@ -102,10 +111,12 @@ public class EsercizioVideoteca {
 
         public void aggiungiFilm(Film film) {
             videoteca.add(film);
+            System.out.println("Hai aggiunto il film: " + film + " alla videoteca");
         }
 
         public void rimuoviFilm(Film film) {
             videoteca.remove(film);
+            System.out.println("Hai rimosso il film: " + film + " dalla videoteca");
         }
 
     }
