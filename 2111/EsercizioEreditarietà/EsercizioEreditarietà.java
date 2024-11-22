@@ -1,5 +1,6 @@
 package EsercizioEreditarietà;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class EsercizioEreditarietà {
@@ -8,40 +9,65 @@ public class EsercizioEreditarietà {
 
         Scanner scannerInt = new Scanner(System.in);
         Scanner scannerString = new Scanner(System.in);
+        boolean continua = true; // controllo per il ciclo while
 
-        System.out.println("Benvenuto, inserisci nome utente e password");
+        ArrayList<Utente> registroUtenti = new ArrayList<>();
 
-        System.out.println("Nome utente:");
-        String nome = scannerString.nextLine();
-        System.out.println("Email:");
-        String mail = scannerString.nextLine();
-        Utente utente = new Utente(nome, mail);
+        while (continua) {
+            stampaMenu();
+            int scelta = scannerInt.nextInt();
+            scannerInt.nextLine(); // consuma la nuova riga
 
-        stampaMenu();
+            switch (scelta) {
+                case 0: // crea utente
+                    System.out.println("Benvenuto, inserisci nome utente e password");
 
-        int optionMenu = scannerInt.nextInt();
-        while (optionMenu < 2) {
-            switch (optionMenu) {
-                case 0:
-                    System.out.println(utente.getNomeUtente());
-                    System.out.println(utente.getEmailUtente());
+                    System.out.println("Nome utente:");
+                    String nome = scannerString.nextLine();
+                    System.out.println("Email:");
+                    String mail = scannerString.nextLine();
+                    Utente utente = new Utente(nome, mail);
+                    registroUtenti.add(utente);
+
+                    System.out.println("Utente creato con successo");
+
+                    break;
+                case 1: // visualizza utenti
+                    if (registroUtenti.isEmpty()) {
+                        System.out.println("Non è presente nessun utente!");
+                    }
+                    System.out.println("Gli utenti presenti sono:");
+                    for (Utente ut : registroUtenti) {
+                        System.out.println("Utente numero " + registroUtenti.indexOf(ut));
+                        System.out.println("Nome utente: " + ut.getNomeUtente());
+                        System.out.println("email utente: " + ut.getEmailUtente());
+                    }
+
+                    break;
+                case 2: // esci
+                    System.out.println("Sei sicuro di voler uscire? (y/n): ");
+                    String risposta = scannerString.nextLine();
+                    if (risposta.equalsIgnoreCase("y")) {
+                        System.out.println("Grazie per aver usato il nostro sistema!");
+                        continua = false;
+                    }
                     break;
 
+                default:
+                    System.out.println("Scelta non valida, inserisci un nuovo numero: ");
+                    break;
             }
-
         }
-        
-        stampaMenu();
-        optionMenu = scannerInt.nextInt();
 
     }
 
     public static void stampaMenu() {
 
         System.out.println("Benvenuto! Scegli un opzione del menù:");
-        System.out.println("0: Stampa dati utente");
-        System.out.println("1: Interagisci col profilo");
-        System.out.println("2: Esci");
+        System.out.println("0: Crea utente");
+        System.out.println("1: Stampa dati utente");
+        System.out.println("2: Interagisci col profilo");
+        System.out.println("3: Esci");
         System.out.print("Inserisci un opzione: ");
 
     }
