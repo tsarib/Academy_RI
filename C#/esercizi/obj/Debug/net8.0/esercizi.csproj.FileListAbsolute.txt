@@ -1,0 +1,14 @@
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\bin\Debug\net8.0\esercizi.exe
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\bin\Debug\net8.0\esercizi.deps.json
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\bin\Debug\net8.0\esercizi.runtimeconfig.json
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\bin\Debug\net8.0\esercizi.dll
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\bin\Debug\net8.0\esercizi.pdb
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.AssemblyInfoInputs.cache
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.AssemblyInfo.cs
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.csproj.CoreCompileInputs.cache
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.dll
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\refint\esercizi.dll
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.pdb
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\esercizi.genruntimeconfig.cache
+C:\Users\tabonavent\Documents\Accademy\C#\esercizi\obj\Debug\net8.0\ref\esercizi.dll

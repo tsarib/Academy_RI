@@ -1,0 +1,14 @@
+C:\Users\tabonavent\Documents\Accademy\C#\prova\bin\Debug\net8.0\prova.exe
+C:\Users\tabonavent\Documents\Accademy\C#\prova\bin\Debug\net8.0\prova.deps.json
+C:\Users\tabonavent\Documents\Accademy\C#\prova\bin\Debug\net8.0\prova.runtimeconfig.json
+C:\Users\tabonavent\Documents\Accademy\C#\prova\bin\Debug\net8.0\prova.dll
+C:\Users\tabonavent\Documents\Accademy\C#\prova\bin\Debug\net8.0\prova.pdb
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.AssemblyInfoInputs.cache
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.AssemblyInfo.cs
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.csproj.CoreCompileInputs.cache
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.dll
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\refint\prova.dll
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.pdb
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\prova.genruntimeconfig.cache
+C:\Users\tabonavent\Documents\Accademy\C#\prova\obj\Debug\net8.0\ref\prova.dll
