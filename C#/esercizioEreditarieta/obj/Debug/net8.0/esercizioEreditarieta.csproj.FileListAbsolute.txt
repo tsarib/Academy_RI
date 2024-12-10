@@ -1,0 +1,14 @@
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\bin\Debug\net8.0\esercizioEreditarieta.exe
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\bin\Debug\net8.0\esercizioEreditarieta.deps.json
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\bin\Debug\net8.0\esercizioEreditarieta.runtimeconfig.json
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\bin\Debug\net8.0\esercizioEreditarieta.dll
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\bin\Debug\net8.0\esercizioEreditarieta.pdb
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.AssemblyInfoInputs.cache
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.AssemblyInfo.cs
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.csproj.CoreCompileInputs.cache
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.dll
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\refint\esercizioEreditarieta.dll
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.pdb
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\esercizioEreditarieta.genruntimeconfig.cache
+C:\Users\tabonavent\Documents\Accademy\C#\esercizioEreditarieta\obj\Debug\net8.0\ref\esercizioEreditarieta.dll
